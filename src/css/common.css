@@ -16,3 +16,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+  line-height: var(--line-height-text);
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
