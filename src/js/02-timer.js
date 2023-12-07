@@ -25,8 +25,8 @@ const options = {
     if (dateDifference <= 0) {
       startButton.disabled = true;
       startButton.style.cursor = 'not-allowed';
-      Notiflix.Notify.failure('Please choose a date in the future');
       //window.alert('Please choose a date in the future');
+      Notiflix.Notify.failure('Please choose a date in the future');
       return;
     }
 
